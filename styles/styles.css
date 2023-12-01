@@ -1,0 +1,156 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+main{
+    width: 85%;
+    margin: 7.5vh auto;
+    flex-direction: column;
+    border-radius: 7.975775px;
+    font-weight: 400;
+    max-width: 875px;
+    box-shadow: 0 0 10px rgba(0 0 0 / 30%);
+
+}
+
+h2{
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+p{
+    font-weight: 400;
+}
+
+.top{
+    background: #fff;
+    border-top-left-radius: 7.975775px; 
+    border-top-right-radius: 7.975775px;
+}
+
+.bottom-duo{
+    flex-direction: column;
+}
+
+.mid{
+    background: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+.bottom{
+    background: hsl(179, 62%, 55%);
+    border-bottom-left-radius: 7.975775px;
+    border-bottom-right-radius: 7.975775px;
+}
+
+.top, .mid, .bottom{
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+#top-h{
+    color: hsl(179, 62%, 43%);
+}
+
+#yellow-p{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.top p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+
+#price-p{
+    align-items: center;
+    gap: .75rem;
+    color: hsl(204, 43%, 75%);
+}
+#price{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mid p{
+    font-weight: 200;
+}
+
+button{
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: .75em 1.5em;
+    font-size: 1.15rem;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 0 0 10px rgba(0 0 0 / 30%);
+    border-radius: 6.775775px;
+}
+
+.bottom h2{
+    color: #fff;
+}
+
+.bottom p{
+    color: hsl(204, 43%, 93%);
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    width: 90%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+#user-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(220, 15%, 35%);
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+#user-name:hover{
+    text-shadow: red 1px 0, cyan -1px 0;
+}
+
+@media (min-width:769px){
+    main{
+        margin-top: 10vh;
+    }
+    .bottom-duo{
+        flex-direction: row;
+    }
+
+    .bottom{
+        border-bottom-left-radius: 0;
+    }
+
+    .mid{
+        border-bottom-left-radius: 7.975775px;
+    }
+}
