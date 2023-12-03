@@ -103,7 +103,7 @@ button{
     transition: 0.5s;
 }
 
-button{
+button:hover{
     color: hsl(71, 73%, 54%);
     background-color: #fff;
 }
