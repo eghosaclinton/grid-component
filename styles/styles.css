@@ -100,6 +100,12 @@ button{
     background-color: hsl(71, 73%, 54%);
     box-shadow: 0 0 10px rgba(0 0 0 / 30%);
     border-radius: 6.775775px;
+    transition: 0.5s;
+}
+
+button{
+    color: hsl(71, 73%, 54%);
+    background-color: #fff;
 }
 
 .bottom h2{
