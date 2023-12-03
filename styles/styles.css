@@ -148,6 +148,7 @@ button:hover{
     main{
         margin-top: 10vh;
     }
+
     .bottom-duo{
         flex-direction: row;
     }
@@ -158,5 +159,10 @@ button:hover{
 
     .mid{
         border-bottom-left-radius: 7.975775px;
+    }
+
+    button:hover{
+        color: hsl(71, 73%, 54%);
+        background-color: #fff;
     }
 }
