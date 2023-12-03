@@ -41,7 +41,7 @@ Mobile view (375 x 870)
 
 ### Links
 
-- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-grid-component-with-flexbox-pem2NL_fRL)
 - Live Site URL: [ace-9.netlify.app](https://ace-9.netlify.app/)
 
 ## My process
